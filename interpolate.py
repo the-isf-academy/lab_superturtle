@@ -1,8 +1,7 @@
-from superturtle.animation import animate
 from turtle import *
-from  superturtle.easing import easeOutBounce
-from superturtle.movement import update_position, fly
-from shapes import triangle, rectangle
+from superturtle.animation import animate
+from superturtle.movement import fly
+from shapes import rectangle
 
 
 for frame in animate(frames=60, loop=True):

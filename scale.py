@@ -1,6 +1,6 @@
 from turtle import *
 from superturtle.animation import animate
-from superturtle.movement import update_position, fly
+from superturtle.movement import fly
 from shapes import triangle
 
 

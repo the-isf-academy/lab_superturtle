@@ -1,7 +1,6 @@
 from turtle import *
 
 def triangle(side_len, color_name):
-    #This function draws an equilateral triangle
     color(color_name)
     begin_fill()
     for i in range(3):

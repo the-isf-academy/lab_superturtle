@@ -1,6 +1,5 @@
-from superturtle.animation import animate
 from turtle import *
-from superturtle.movement import update_position, fly
+from superturtle.animation import animate
 from shapes import triangle, rectangle
 
 for frame in animate(60, loop=True):
