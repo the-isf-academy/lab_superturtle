@@ -10,8 +10,6 @@ for frame in animate(frames=60, loop=True):
     width = 100 
     rectangle(width, height2, 'forest green')
 
-    print(height2)
-
     fly(0,0)
     height1 = frame.interpolate(start=80, stop=120, mirror=True)
     width = 100 
