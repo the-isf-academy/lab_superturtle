@@ -8,7 +8,7 @@ import settings
 bgcolor(settings.BACKGROUND_COLOR)
 
 
-for frame in animate(settings.TOTAL_FRAMES, loop = True):
+for frame in animate(loop = True):
     for frame in animate(settings.TOTAL_FRAMES//3, loop=False):
         with frame.translate(start=[-200, 0], stop=[200, 0]):
             with frame.rotate(start=0, stop=360):
